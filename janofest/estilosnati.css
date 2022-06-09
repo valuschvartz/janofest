@@ -1,0 +1,274 @@
+body{
+	background-color: white;
+	color: white;
+	font-color: black;
+}
+
+header img {
+	width:100%;
+	height: 150px;
+}
+
+table {
+	width:100%;
+	height: 50px;
+	font-family: Lato;
+	font-size: 15px;
+	font-weight: bold;
+	font-color:white;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+	background-color: #ecd1f1;
+}
+
+
+.fotos img{
+	display: inline-block;
+}
+
+
+.center {
+	float: center;
+	width:60%;
+}
+	.center img{
+		width: 100%;
+	}
+
+.costo {
+	float: left;
+	width:60%;
+	background-color: white;
+	color: black;
+}
+
+	.costo h1{
+		float: left;
+		width: 100%;
+		background-color: white;
+		color: #9A1D1D ;
+	}
+
+	.costo p {
+		float: left;
+		width: 100%;
+		background-color: white;
+		color: black;
+		margin-top: 2%;
+	}
+
+	.tabla1 {
+		float: left;
+		width: 100%;
+		background-color: white;
+		margin: none;
+		border-color: white;
+		text-align: center;
+		font-size: 15px;
+		text-decoration: none;
+	}
+
+		.tabla1 tr {
+			float: left;
+			width:100%;
+			background-color: white;
+			margin: none;
+			text-align: center;
+			height: 50px;
+		}
+
+		.tabla1 td {
+			float: left;
+			width: 18.5%;
+			background-color: white;
+			margin: none;
+			text-align: center;
+			height: 50px;
+			text-decoration: none;
+		}
+
+.tabla2 {
+	float: left;
+	width: 100%;
+	background-color: white;
+	margin: none;
+	border-color: white;
+	text-align: center;
+	font-size: 15px;
+	text-decoration: none;
+}
+
+	.tabla2 tr {
+		float: left;
+		width:100%;
+		background-color: white;
+		margin: none;
+		text-align: center;
+		height: 50px;
+	}
+
+	.tabla2 td {
+		float: left;
+		width: 49%;
+		background-color: white;
+		margin: none;
+		text-align: center;
+		height: 50px;
+		text-decoration: none;
+	}
+
+
+.peliculas {
+	width: 98%;
+	float: left;
+	margin-right: 1%;
+	margin-left: 1%;
+	background-color: #FFD133;
+}
+	.pelicula {
+		width: 450px;
+		float: left;
+		height: 250px;
+		display: inline-block;
+		margin: 10px;
+	}
+
+		.peliculas  img {
+			width: 150px;
+			height: 210px;
+		}
+		.info {
+		display: inline-block;
+		float: left;
+		font-family: Arial;
+		color: black;
+		width: 250px;
+		margin: 15px;
+		}
+		.info img {
+			width: 110px;
+			height: 40px;
+		}
+
+		.imag{
+			float: left;
+		}
+
+#enviar {
+	cursor: pointer;
+	float: none;
+	display: inline-block;
+	width: auto;
+}
+
+.boton {
+	margin-right: 5%;
+	margin-left: 5%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	width: 150px;
+	height: 60px;
+	background-color: #AFD6F2;	
+}
+	.boton a {
+		float: left;
+		padding-top: 10%;
+		padding-bottom: 5%;
+		width: 100%;
+		height: 100%;
+		color: white;
+		text-decoration: none;
+		text-align: center;
+	}
+
+form {
+	float: left;
+	font-family: Lato;
+	font-size: 25px;
+	font-weight: bold;
+	font-color: white;
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: left;
+	background-color:black;
+	width: 100%;
+	height: 600px;
+}
+
+.final {
+	width: 100%;
+	height: 1000px;
+}
+
+.final img {
+	width: 100%;
+	height: 400px;
+}
+
+
+.promos {
+	float: left;
+	width:60%;
+	background-color: white;
+	color: black;
+	display: inline-block;
+}
+
+	.promos h1{
+		float: left;
+		width: 100%;
+		background-color: white;
+		color: #9A1D1D ;
+	}
+
+.promo {
+	width:400px;
+	float: left;
+	height: 250px;
+	display: inline-block; ;
+	margin: 10px;
+	background-color: #DFDEDE;
+	color: black;
+}
+		.promos  img {
+			margin-left: 5px;
+			margin-top: 5px;
+			width: 100px;
+			height: 90px;
+		}
+
+		.infor {
+		display: inline-block;
+		float: left;
+		font-family: Arial;
+		color: black;
+		width: 225px;
+		margin-left: 15px;
+		}
+
+		span {
+		display: inline-block;
+		float: left;
+		font-family: Arial;
+		color: black;
+		width: 325px;
+		margin-left: 15px;
+		}
+
+		.imgn {
+			float: left;
+		}
+
+.table3 {
+	float: left;
+	width: 100%;
+	background-color: white;
+}
+
+	.table3 tr {
+		float: left;
+		width: 49%;
+		background-color: white;
+	}

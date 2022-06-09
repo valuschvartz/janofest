@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JANOFEST</title>
+	<link rel="stylesheet" type="text/css" href="estilosnati.css">
+	<link rel="icon" href="logo.png" type="image/x-icon">
+</head>
+<body>
+		<header>
+		<img src="logo.png">	
+	</header>
+	<table>
+		<tr>
+			<td> <a href="index.html">Bienvenida</a> </td>
+			<td>  
+				<label for="compl">Complejos</label>
+					<select id="complejos">
+						<option disabled selected>Selecciona una opción</option>
+						<option>Bowling</option>
+						<option>Sarkis</option>
+						<option>Spa</option>
+						<option>Muchas actividades más!</option>
+					</select>
+			</td>
+			<td> <a href="comprarentradas.html">Comprar entradas </a></td>
+		</tr>
+	</table>
+	<form name="formulario" method="get">
+		<div class="campo largo">
+			<label for="Nombre"> Nombre y apellido del usuario: </label>
+				<input type="text" placeholder="Laly" name="Nombre" id="Nombre">
+			<br> <label for="tel">Número de teléfono móvil:</label> 
+				<input type="number" placeholder="+54 9 11 8975 4321" name="telefono" id="telefono">
+			<br> <label for="mail">Dirección de correo electrónico:</label>
+				<input type="email" placeholder="larajanowski1@gmail.com" name="mail" id="mail">
+			<br> <label for="Edad">Edad del usuario:</label> 
+				<input type="number" placeholder="18" name="Edad" id="Edad">
+			<br> <label for="Fecha">Seleccione el día:</label> 
+				<input type="date" name="Fecha" value="" id="Fecha">
+			<br> <label for="compl"> Seleccione el complejo:</label>
+				<select id="complejos">
+					<option disabled selected>Selecciona una opción</option>
+                    <option>Bowling</option>
+                    <option>Sarkis</option>
+                    <option>Spa</option>
+                    <option>Muchas actividades más!</option>
+				</select>
+			
+		</div>
+		<div class="boton">
+		<a href="entrada.jpg" onclick="levantardatos();"> Enviar </a>	
+		</div>
+	</form>
+	<script type="text/javascript">
+		function levantardatos() {
+			var nombreyapellido = document.getElementById("Nombre").value;
+			var teléfono = document.getElementById("telefono").value;
+			var email = document.getElementById("mail").value;
+			var edadusuario = document.getElementById("Edad").value;
+			var día = document.getElementById("Fecha").value;
+			var complej  = document.getElementById("complejos").value;
+			var movie  = document.getElementById("pelis").value;
+			var hora = document.getElementById("horario").value;
+			var SALA = document.getElementById("salas").value;
+			var idiom = document.getElementById("idiomas").value;
+			var cant = document.getElementById("entradas").value;
+			var pago = document.getElementById ("metodos").value;
+			if(edadusuario < 18)
+				alert ("Usted es menor de edad");
+			else if (cant< 1)
+				alert ("La cantidad de entradas ingresadas no es válida");
+			else
+				alert (nombreyapellido +"\n" + teléfono +"\n" + email +"\n" + edadusuario +"\n" + día +"\n" + complej +"\n" + movie +"\n" +  hora +"\n" + SALA +"\n" + idiom +"\n" + cant +"\n" + pago ); 
+		}
+	</script>
+	
+</body>
+</html>
